@@ -17,7 +17,7 @@ class ProjectTypeController extends RestfulController{
         respond projectTypeService.list(params,request)
     }
 
-    @Override
+    @Override   
     def show() {
         respond projectTypeService.single(params,request)
     }

@@ -1,0 +1,14 @@
+model {
+    Persons persons
+}
+json{
+    Person_Id persons.id
+    username persons.username
+    FullName persons.fullname
+    Mobile persons.mobile
+    grno_EmpCode persons.grno_empcode
+    email persons.email
+    department persons.department
+    college persons.college
+    roles persons.roles
+}
